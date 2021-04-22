@@ -5,6 +5,13 @@
 # @Site :  https://blog.csdn.net/error404404/article/details/81669929
 # https://blog.csdn.net/error404404/article/details/81669929
 # https://blog.csdn.net/aicanghai_smile/article/details/79234172
+# https://zhuanlan.zhihu.com/p/31743196
+# https://zhuanlan.zhihu.com/p/27424282
+# https://zhuanlan.zhihu.com/p/26440212
+# https://zhuanlan.zhihu.com/p/30538352
+# https://www.kaggle.com/omarelgabry/a-journey-through-titanic
+# https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python
+# http://mars.run/2015/11/Machine%20learning%20kaggle%20titanic-0.8/
 # @Reference: https://www.kaggle.com/tanmayunhale/titanic-top-4-hyperparameter-tuning
 # @File : tatanic.py
 # @Software: PyCharm
@@ -41,6 +48,10 @@ full = train.append(test, ignore_index=True)
 # 由于describe只能查询到数据类型列的信息，使用info查看时间数据、字符串数据的列
 # full.info()
 # print(full.info())
+
+
+# 绘制存活的比例：
+train_data['Survived'].value_counts().plot.pie(autopct = '%1.2f%%')
 
 # 丢弃PassengerId这列数据
 train.drop(['PassengerId'], axis=1, inplace=True)
