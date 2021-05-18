@@ -78,7 +78,11 @@ EDA的过程与数据挖掘的流程不谋而合，特征是否起作用需要�
 
 # 涉及的数据基础认识
 ## 数据类型
-
+|  结构化数据   | 非结构化数据  |
+|  ----  | ----  |
+| 二分类型  | 文本 |
+| 多分类型  | 图像 |
+| 有序类型  | 视频 |
 
 # 可参考案例
 - https://www.kaggle.com/jolasa/eda-anda-data-preparation-4th-place?scriptVersionId=21118720
