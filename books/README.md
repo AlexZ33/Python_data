@@ -1,6 +1,14 @@
-
+- [3blue1brown的视频 : 《线性代数的本质》](https://www.bilibili.com/video/BV1ys411472E?spm_id_from=333.788.b_636f6d6d656e74.78)
+- [3Blue1Brown的数学基础](https://space.bilibili.com/88461692)
+- B站线性代数视频教程 [MIT线性代数【全】](https://www.bilibili.com/video/BV1Kt411y7jN/)
+    - [麻省理工公开课：线性代数](https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Fdaishu.html&utm_source=weibolife)
+    - [mit官网上的exam、assignments、教材和答案的pdf文档]()
+    - [MIT线性代数课程笔记](./MIT线性代数公开课笔记.pdf)
+    - 
+- [B站最强学习资源汇总](https://www.jiqizhixin.com/articles/2020-04-14-3)
 - 吴恩达机器学习：https://www.bilibili.com/video/BV164411b7dx
 - 《程序员数学：用Python学透线性代数和微积分》
+  - 
 - 吴恩达深度学习：https://www.bilibili.com/video/BV164411m79z
 - Pytorch实战：
 - Tensorflow实战：https://www.bilibili.com/video/BV1Zt411T7zE

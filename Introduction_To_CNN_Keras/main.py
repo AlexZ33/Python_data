@@ -1,3 +1,11 @@
+'''
+Author: zhaokang zhaokang1@xiaomi.com
+Date: 2022-05-07 17:56:20
+LastEditors: zhaokang zhaokang1@xiaomi.com
+LastEditTime: 2022-05-11 19:47:27
+FilePath: /Python_data/Introduction_To_CNN_Keras/main.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 # Question
 # Reference : https://www.kaggle.com/code/yassineghouzam/introduction-to-cnn-keras-0-997-top-6/notebook
 # Keras API Reference/ Utilities : https://keras.io/api/utils/python_utils/
@@ -52,7 +60,7 @@ del train
 # 展示label的计数图
 g = sns.countplot(Y_train)
 Y_train.value_counts()
-plt.show()
+# plt.show()
 
 
 # 2.  check for null and missing values 检查空值和缺失值
@@ -91,4 +99,17 @@ random_seed = 2
 # Split the train and the validation set for the fitting
 # 拆分训练集和验证集以进行拟合
 # 我选择将训练集分成两部分：一小部分 (10%) 成为评估模型的验证集，其余部分 (90%) 用于训练模型。
-X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size = 0.1, random_state=random_seed)
+X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size = 0.1, random_state=rand
+
+# 由于我们有 42000 张平衡标签的训练图像（参见 2.1 加载数据），训练集的随机拆分不会导致某些标签在验证集中过度表示。 小心一些不平衡的数据集，简单的随机拆分可能会导致验证期间的评估不准确。
+# 为避免这种情况，您可以在 train_test_split 函数中使用 stratify = True 选项（仅适用于 >=0.17 sklearn 版本）。
+
+# 通过可视化图像并查看标签，我们可以更好地理解这些示例之一。
+# some example
+g = plt.imshow(X_train[0][:,:,0])
+
+
+# 7. Build the model 构建模型 #######################################################   
+
+
+
